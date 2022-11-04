@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import FeedbackList from "./components/FeedbackList";
 import feedbackData from "./data/FeedbackData";
-import Card from "./components/shared/Card";
+import FeedbackStats from "./components/FeedbackStats";
 import { FaWindows } from "react-icons/fa";
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
     <>
       <Header />
       <div className="container">
+        <FeedbackStats feedback={feedback} />
         <FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
       </div>
     </>
