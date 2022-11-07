@@ -11,7 +11,7 @@
       "text": "This is feedback item 3 coming from the backend"
     },
     {
-      "rating": "9",
+      "rating": 5,
       "text": "my first server",
       "id": 4
     }
